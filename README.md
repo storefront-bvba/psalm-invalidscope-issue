@@ -25,12 +25,13 @@ No errors found!
 
 actual result:
 ```
+Scanning files...
+Analyzing files...
+
 E
 
-ERROR: UndefinedDocblockClass - bad.phtml:7:1 - Docblock-defined class or interface MyNamespace\Block\CustomBlocks does not exist (see https://psalm.dev/200)
-/** @var CustomBlocks $block */
-
-?>
+ERROR: InvalidScope - bad.phtml:5:5 - Invalid reference to $this in a non-class context (see https://psalm.dev/013)
+<?= $this
 
 
 ------------------------------
