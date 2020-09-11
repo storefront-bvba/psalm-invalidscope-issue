@@ -1,4 +1,4 @@
-# Psalm .html template issue reproducer
+# Psalm suppress InvalidScope issue reproducer
 
 https://github.com/vimeo/psalm/issues/4162
 
